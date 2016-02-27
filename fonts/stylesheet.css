@@ -1,0 +1,37 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Paragraph
+ * License URL: http://www.fontspring.com/licenses/paragraph/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'springsteel_serifthin';
+    src: url('SpringsteelSerif-Thin-webfont.eot');
+    src: url('SpringsteelSerif-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SpringsteelSerif-Thin-webfont.woff2') format('woff2'),
+         url('SpringsteelSerif-Thin-webfont.woff') format('woff'),
+         url('SpringsteelSerif-Thin-webfont.ttf') format('truetype'),
+         url('SpringsteelSerif-Thin-webfont.svg#springsteel_serifthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

@@ -11,7 +11,7 @@ html {
 }
 body {
   margin: 0;
-  padding-top: 69px;
+  padding-top: 70px;
 }
 article,
 aside,
@@ -1123,7 +1123,6 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 .img-rounded {
@@ -4464,6 +4463,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px;
+  margin-right: 50px;
 }
 .navbar-btn.btn-sm {
   margin-top: 10px;
@@ -6240,6 +6240,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  margin-top: -20px;
 }
 .carousel-inner {
   position: relative;
