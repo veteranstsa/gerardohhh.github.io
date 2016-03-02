@@ -13,6 +13,9 @@
 
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.css">
@@ -77,7 +80,7 @@
     <div class="item active">
       <img src="images/welcome.jpg" height="600" alt="Welcome">
       <div class="carousel-caption designss">
-      <img src="images/logo.png" width="150">
+      <div class="logo-header"></div>
         <h1>Veterans Memorial High School</h1>
       </div>
     </div>
@@ -91,16 +94,8 @@
 <div class="row">
 
 <div class="col-md-5">
-<h2>Mission Statement</h2>
-<p>Work collaboratively to prepare students academically,
-socially, and technologically as they become 
-contributing members of our society.</p>
-<h2>School Anthem</h2>
-<p>Hail to you, Veterans' High, you’ve become our home,
-Veterans' High, hear our song, help us to be strong,
-As we see all our dreams, guide us to those dreams,
-We shall strive to succeed, with our humble deeds,
-You’re our home, we’re your own, Hail to Veterans' High</p>
+<h2>About Our School</h2>
+<p>Veterans Memorial High School promotes numerous student clubs and organizations. Students are encouraged to participate in any of the many extracurricular activities offered at our campus: fine arts, athletics, student council, and a host of other clubs and organizations. Additionally, our school promotes student involvement in all district co-curricular activities (including Science Fair, History Fair, and UIL Academics). Many of these activities lead to campus level competitions where the winners of these contests move on to compete at the District, Regional, State, and National levels.</p>
 </div>
 
 <div class="col-md-5 col-md-offset-1">
@@ -132,43 +127,54 @@ You’re our home, we’re your own, Hail to Veterans' High</p>
 <div class="container-fluid no-padding">
 <div class="gray">
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-4 col-sm-6">
   <div class="facts">
-  <h1>Fun Facts</h1>
-  <img src="images/circle-logo.png" width="100">
-  <h3>Location</h3>
-  <h4>Brownsville, TX</h4>
-  <h3>Founded</h3>
-  <h4>2010</h4>
-  <h3>Mascot</h3>
-  <h4>Chargers</h4>
+  <div class="fact-logo"></div>
+  <h1>Quick Facts</h1><br>
+  <h2>Location</h2>
+  <h4>Brownsville, Texas</h4><div id="liner"></div>
+  <h2>Founded</h2>
+  <h4>2010</h4><div id="liner"></div>
+  <h2>Mascot</h2>
+  <h4>Chargers</h4><br>
+<img src="images/banner.png" height="80" width="200" alt="banner"/><br><br>
   <div class="row">
   <div class="col-xs-6 col-sm-6">
-        <h3>1950</h3>
-        <h4>Students</h4>
-        <h3>125</h3>
-        <h4>Teachers</h4>
+        <h3>2,036</h3><div id="liner2"></div>
+        <h2>Students</h2><br>
+        <h3>131</h3><div id="liner2"></div>
+        <h2>Teachers</h2>
   </div><!-- /.col -->
   <div class="col-xs-6 col-sm-6">
-        <h3>50</h3>
-        <h4>Clubs</h4>
-        <h3>100%</h3>
-        <h4>Satisfaction</h4>
+        <h3>47</h3><div id="liner2"></div>
+        <h2>Extracurriculars</h2><br>
+        <h3>100%</h3><div id="liner2"></div>
+        <h2>Satisfaction</h2>
   </div><!-- /.facts -->
   </div><!-- /.col -->
   </div><!-- /.row -->
   </div><!-- /.col -->
 
-  <div class="col-md-8">
-  <h1>About Our School</h1>
-<p>Veterans Memorial High School promotes numerous student clubs and organizations. Students are encouraged to participate in any of the many extracurricular activities offered at our campus: fine arts, athletics, student council, and a host of other clubs and organizations. Additionally, our school promotes student involvement in all district co-curricular activities (including Science Fair, History Fair, and UIL Academics). Many of these activities lead to campus level competitions where the winners of these contests move on to compete at the District, Regional, State, and National levels.</p><br><br>
-<h3>School Map & Directions</h3>
-<img class="img-responsive img-thumbnail map" src="images/map.png" alt="map">
+<div class="col-md-7 col-md-offset-1 col-sm-5 col-sm-offset-1">
+<h2>Mission Statement</h2>
+<p>Work collaboratively to prepare students academically,
+socially, and technologically as they become 
+contributing members of our society.</p>
+<br>
+<h2>School Anthem</h2>
+<p id="anthem">Hail to you, Veterans' High, you’ve become our home,<br>
+Veterans' High, hear our song, help us to be strong,<br>
+As we see all our dreams, guide us to those dreams,<br>
+We shall strive to succeed, with our humble deeds,<br>
+You’re our home, we’re your own, Hail to Veterans' High!</p>
+<br>
+<h2>School Map & Directions</h2>
+<div class="map"></div>
 <div class="map-desc">
-<h6>Veterans Memorial High School</h6>
-<h5>4550 US Military Hwy 281</h5>
-<h5>Brownsville, TX</h5>
-<h5>78520</h5>
+<h2>Veterans Memorial High School</h2>
+4550 US Military Hwy 281<br>
+Brownsville, TX<br>
+78520
 </div>
 
 </div><!-- /.col -->
@@ -187,25 +193,27 @@ Website<br><br>
 <a href="/">Home</a><br><br><a href="/cte">CTE Program</a><br><br><a href="/tsa">TSA Chapter</a><br><br><a href="http://drones.ml">Design Brief</a>
 </div>
 <div class="col-md-4 col-sm-6 col-xs-6">
-External Links<br><br>
+External<br><br>
 <a href="http://tsaweb.org/" target="_blank">National TSA</a><br><br><a href="http://texastsa.org" target="_blank">Texas TSA</a><br><br><a href="http://bisd.us" target="_blank">Brownsville ISD</a><br><br><a href="http://veteransmemorialearlycollegehigh.weebly.com" target="_blank">School Website</a>
 </div>
 <div class="col-md-4">
-<img src="images/logo-footer.png" width="150" class="center-block">
+<div class="logo-footer"></div>
 </div>
 </div><!-- /.row -->
 
 <div class="row rights">
 <div class="col-md-4">
-<img src="images/footer-logo.jpg" height="30" class="center-block">
+<div class="footer-logo"></div>
 </div>
 <div class="col-md-4 cr">
 ©2016 <a href="/">Veterans Memorial HS—All Rights Reserved</a>
 </div>
 <div class="col-md-4 social">
-<a href="https://facebook.com/vmhstsa" target="_blank">Facebook</a>
-<a href="https://twitter.com/VeteransTSA" target="_blank">Twitter</a>
-<a href="mailto:veteranstsa@gmail.com">Email</a>
+<div class="row">
+<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="https://facebook.com/vmhstsa" target="_blank"><div class="soc face"></div></a></div>
+<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="https://twitter.com/VeteransTSA" target="_blank"><div class="soc twit"></div></a></div>
+<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="mailto:veteranstsa@gmail.com" target="_blank"><div class="soc email"></div></a></div>
+</div>
 </div>
 </div><!-- /.row -->
 
